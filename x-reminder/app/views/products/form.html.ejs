@@ -1,0 +1,18 @@
+<div class="control-group">
+  <label for="name" class="control-label">name</label>
+  <div class="controls">
+    <%- contentTag('input', product.name, {type:'text', class:'span6', name:'name'}) %>
+  </div>
+</div>
+<div class="control-group">
+  <label for="quantity" class="control-label">quantity</label>
+  <div class="controls">
+    <%- contentTag('input', product.quantity, {type:'number', class:'span2', name:'quantity'}) %>
+  </div>
+</div>
+<div class="control-group">
+  <label for="expdate" class="control-label">expdate</label>
+  <div class="controls">
+    <%- contentTag('input', product.expdate, {type:'date', class:'span2', name:'expdate'}) %>
+  </div>
+</div>
